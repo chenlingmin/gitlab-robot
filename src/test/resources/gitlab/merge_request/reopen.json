@@ -1,0 +1,126 @@
+{
+  "object_kind": "merge_request",
+  "user": {
+    "name": "黑牛",
+    "username": "heiniu",
+    "avatar_url": "http://gitlab.xxxxxxx.com/uploads/-/system/user/avatar/68/avatar.png"
+  },
+  "project": {
+    "name": "GitLabDingTalk",
+    "description": "",
+    "web_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+    "avatar_url": null,
+    "git_ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "git_http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git",
+    "namespace": "namespace",
+    "visibility_level": 10,
+    "path_with_namespace": "server/xyz/GitLabDingTalk",
+    "default_branch": "master",
+    "ci_config_path": null,
+    "homepage": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+    "url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git"
+  },
+  "object_attributes": {
+    "id": 15892,
+    "target_branch": "master",
+    "source_branch": "tetete",
+    "source_project_id": 828,
+    "author_id": 68,
+    "assignee_id": 175,
+    "title": "请合并",
+    "created_at": "2022-09-01 05:18:43 UTC",
+    "updated_at": "2022-09-01 08:16:33 UTC",
+    "milestone_id": null,
+    "state": "opened",
+    "merge_status": "cannot_be_merged",
+    "target_project_id": 828,
+    "iid": 4,
+    "description": "请合并请合并请合并",
+    "updated_by_id": null,
+    "merge_error": null,
+    "merge_params": {
+      "force_remove_source_branch": "0"
+    },
+    "merge_when_pipeline_succeeds": false,
+    "merge_user_id": null,
+    "merge_commit_sha": null,
+    "deleted_at": null,
+    "approvals_before_merge": null,
+    "rebase_commit_sha": null,
+    "in_progress_merge_commit_sha": null,
+    "lock_version": null,
+    "time_estimate": 0,
+    "squash": false,
+    "last_edited_at": null,
+    "last_edited_by_id": null,
+    "head_pipeline_id": null,
+    "ref_fetched": true,
+    "merge_jid": null,
+    "source": {
+      "name": "GitLabDingTalk",
+      "description": "",
+      "web_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+      "git_http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git",
+      "namespace": "namespace",
+      "visibility_level": 10,
+      "path_with_namespace": "server/xyz/GitLabDingTalk",
+      "default_branch": "master",
+      "ci_config_path": null,
+      "homepage": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+      "url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+      "ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+      "http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git"
+    },
+    "target": {
+      "name": "GitLabDingTalk",
+      "description": "",
+      "web_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+      "git_http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git",
+      "namespace": "namespace",
+      "visibility_level": 10,
+      "path_with_namespace": "server/xyz/GitLabDingTalk",
+      "default_branch": "master",
+      "ci_config_path": null,
+      "homepage": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+      "url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+      "ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+      "http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git"
+    },
+    "last_commit": {
+      "id": "568b7037cea86a4ac144d9ab2a33a1a69ad01f0e",
+      "message": "重构\n",
+      "timestamp": "2022-09-01T13:15:46+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk/commit/568b7037cea86a4ac144d9ab2a33a1a69ad01f0e",
+      "author": {
+        "name": "黑牛",
+        "email": "heiniu.com@gmail.com"
+      }
+    },
+    "work_in_progress": false,
+    "total_time_spent": 0,
+    "human_total_time_spent": null,
+    "human_time_estimate": null,
+    "url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk/merge_requests/4",
+    "action": "reopen"
+  },
+  "labels": [
+
+  ],
+  "repository": {
+    "name": "GitLabDingTalk",
+    "url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "description": "",
+    "homepage": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk"
+  },
+  "assignee": {
+    "name": "太牛",
+    "username": "tainiu",
+    "avatar_url": "http://www.gravatar.com/avatar/04d98e56251e59b352b2a7ac05011d53?s=80&d=identicon"
+  }
+}

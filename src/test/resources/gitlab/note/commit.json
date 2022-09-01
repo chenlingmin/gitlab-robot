@@ -1,0 +1,90 @@
+{
+  "object_kind": "note",
+  "user": {
+    "name": "太牛",
+    "username": "tainiu",
+    "avatar_url": "http://www.gravatar.com/avatar/04d98e56251e59b352b2a7ac05011d53?s=80&d=identicon"
+  },
+  "project_id": 828,
+  "project": {
+    "name": "GitLabDingTalk",
+    "description": "",
+    "web_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+    "avatar_url": null,
+    "git_ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "git_http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git",
+    "namespace": "namespace",
+    "visibility_level": 10,
+    "path_with_namespace": "server/xyz/GitLabDingTalk",
+    "default_branch": "master",
+    "ci_config_path": null,
+    "homepage": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+    "url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git"
+  },
+  "object_attributes": {
+    "id": 85469,
+    "note": "@daniu @tainiu  评论数据测试",
+    "noteable_type": "Commit",
+    "author_id": 175,
+    "created_at": "2022-08-31 03:18:45 UTC",
+    "updated_at": "2022-08-31 03:18:45 UTC",
+    "project_id": 828,
+    "attachment": null,
+    "line_code": "e0c83159c68b498bf61e381aef06cef6cb72e3c9_25_28",
+    "commit_id": "5f0a09050cf0cc8de77eab696dfca42a29503ec6",
+    "noteable_id": null,
+    "system": false,
+    "st_diff": null,
+    "updated_by_id": null,
+    "type": "DiffNote",
+    "position": {
+      "old_path": "src/main/java/mo/aomi/notice/base/entity/comment/Comment.java",
+      "new_path": "src/main/java/mo/aomi/notice/base/entity/comment/Comment.java",
+      "old_line": null,
+      "new_line": 28,
+      "base_sha": "a2a4b41959ac93afa5493fd4ae909e7f6edb39c3",
+      "start_sha": "a2a4b41959ac93afa5493fd4ae909e7f6edb39c3",
+      "head_sha": "5f0a09050cf0cc8de77eab696dfca42a29503ec6"
+    },
+    "original_position": {
+      "old_path": "src/main/java/mo/aomi/notice/base/entity/comment/Comment.java",
+      "new_path": "src/main/java/mo/aomi/notice/base/entity/comment/Comment.java",
+      "old_line": null,
+      "new_line": 28,
+      "base_sha": "a2a4b41959ac93afa5493fd4ae909e7f6edb39c3",
+      "start_sha": "a2a4b41959ac93afa5493fd4ae909e7f6edb39c3",
+      "head_sha": "5f0a09050cf0cc8de77eab696dfca42a29503ec6"
+    },
+    "resolved_at": null,
+    "resolved_by_id": null,
+    "discussion_id": "a87c5ca706926dac9a154a46142e8972bc648e39",
+    "change_position": {
+      "old_path": null,
+      "new_path": null,
+      "old_line": null,
+      "new_line": null,
+      "base_sha": null,
+      "start_sha": null,
+      "head_sha": null
+    },
+    "url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk/commit/5f0a09050cf0cc8de77eab696dfca42a29503ec6#note_85469"
+  },
+  "repository": {
+    "name": "GitLabDingTalk",
+    "url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "description": "",
+    "homepage": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk"
+  },
+  "commit": {
+    "id": "5f0a09050cf0cc8de77eab696dfca42a29503ec6",
+    "message": "更新\n",
+    "timestamp": "2022-08-31T11:04:39+08:00",
+    "url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk/commit/5f0a09050cf0cc8de77eab696dfca42a29503ec6",
+    "author": {
+      "name": "747485114@qq.com",
+      "email": "zly19951216"
+    }
+  }
+}

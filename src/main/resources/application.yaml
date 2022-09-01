@@ -1,0 +1,16 @@
+spring:
+  application:
+      name: gitlab-robot
+  thymeleaf:
+    suffix: .md
+    mode: TEXT
+logging:
+  level:
+    mo.aomi.notice: debug
+gitlab:
+  gitlab-to-dingtalk-users:
+    daniu: 18888888888
+    heiniu: 17777777777
+    tainiu: 16666666666
+  access-token: xxxx
+  url: http://gitlab.xxx.com

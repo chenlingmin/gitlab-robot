@@ -1,0 +1,1 @@
+[(${gitlab.user_name})] 在 [(${gitlab.project.name})] 创建了 [(${#strings.replace(gitlab.ref, 'refs/heads/', '')})] 分支

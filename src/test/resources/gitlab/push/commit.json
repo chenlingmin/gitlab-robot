@@ -1,0 +1,381 @@
+
+{
+  "object_kind": "push",
+  "event_name": "push",
+  "before": "729ef2b2282314b37b6a73070135b7b9871ee81f",
+  "after": "ccd884f54610e65c3ba18b7179ec44df4efe818c",
+  "ref": "refs/heads/dev",
+  "checkout_sha": "ccd884f54610e65c3ba18b7179ec44df4efe818c",
+  "message": null,
+  "user_id": 51,
+  "user_name": "大牛",
+  "user_username": "daniu",
+  "user_email": "daniu@xyz.com",
+  "user_avatar": "http://www.gravatar.com/avatar/c30709fc31952c433cc7f1444a419f2a?s=80&d=identicon",
+  "project_id": 696,
+  "project": {
+    "name": "aomi-cd",
+    "description": "",
+    "web_url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd",
+    "avatar_url": null,
+    "git_ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/aomi-cd.git",
+    "git_http_url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd.git",
+    "namespace": "namespace",
+    "visibility_level": 10,
+    "path_with_namespace": "server/xyz/aomi-cd",
+    "default_branch": "master",
+    "ci_config_path": null,
+    "homepage": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd",
+    "url": "git@gitlab.xxxxxxx.com:server/xyz/aomi-cd.git",
+    "ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/aomi-cd.git",
+    "http_url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd.git"
+  },
+  "commits": [
+    {
+      "id": "38e88959adf8a2d73d61a42c600ec2c1106289a1",
+      "message": "核酸校验使用报告日期\n",
+      "timestamp": "2022-08-30T16:36:50+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/38e88959adf8a2d73d61a42c600ec2c1106289a1",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/service/impl/HealthServiceImpl.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "582d53af1c5de9d4d48146d8c8b79f3940f939e5",
+      "message": "调OCR接口异常处理\n",
+      "timestamp": "2022-08-31T14:06:13+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/582d53af1c5de9d4d48146d8c8b79f3940f939e5",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/common/src/main/resources/messages.properties",
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/exception/EmployeeHealthException.java",
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/tencent/TencentClient.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "bea6fdd60fea45674d20ed38b2fd6f463585007c",
+      "message": "Merge remote-tracking branch 'origin/master' into hotfix/健康申报修改核酸校验时间\n\n# Conflicts:\n#\taomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/tencent/TencentClient.java\n",
+      "timestamp": "2022-08-31T14:07:01+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/bea6fdd60fea45674d20ed38b2fd6f463585007c",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/impl/ParcelInfoViewCache.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/impl/ParcelInfoViewCacheEvict.java",
+        "aomi-cd-server/deliveryman-server/src/main/resources/bootstrap.yaml",
+        "aomi-cd-server/dispatchman-server/src/main/resources/bootstrap.yaml",
+        "aomi-cd-server/inner-server/src/main/resources/bootstrap.yaml"
+      ],
+      "modified": [
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/tencent/TencentClient.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/impl/TakeoutParcelServiceImpl.java",
+        "aomi-cd-core/query/src/main/java/mo/aomi/cd/core/query/employee/service/impl/TakeoutParcelQueryServiceImpl.java",
+        "aomi-cd-core/settlement/src/main/java/mo/aomi/cd/deduct/service/impl/DeductionServiceImpl.java",
+        "aomi-cd-core/settlement/src/main/java/mo/aomi/cd/income/service/impl/HolidaySubsidyCalculator.java",
+        "aomi-cd-core/settlement/src/main/java/mo/aomi/cd/income/service/impl/LargeOrderSubsidyCalculator.java",
+        "aomi-cd-core/settlement/src/main/java/mo/aomi/cd/income/service/impl/TimeDistanceSubsidyCalculator.java",
+        "aomi-cd-core/settlement/src/main/java/mo/aomi/cd/income/service/impl/TimeSubsidyCalculator.java",
+        "aomi-cd-core/settlement/src/main/java/mo/aomi/cd/income/service/impl/WeightSubsidyCalculator.java",
+        "aomi-cd-core/settlement/src/main/java/mo/aomi/cd/settlement/service/EmployeeConfigSubsidyService.java",
+        "aomi-cd-core/settlement/src/main/java/mo/aomi/cd/settlement/service/impl/EmployeeConfigSubsidyServiceImpl.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "bae4aeff2ce697f1807d15a0941e4f3fb9e18b26",
+      "message": "校验字符缩短\n",
+      "timestamp": "2022-08-31T14:57:14+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/bae4aeff2ce697f1807d15a0941e4f3fb9e18b26",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/service/impl/HealthServiceImpl.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "4918d432fd482be41bab042d61952f81c6a6559d",
+      "message": "Merge remote-tracking branch 'origin/master' into hotfix/健康申报修改核酸校验时间\n",
+      "timestamp": "2022-08-31T14:58:56+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/4918d432fd482be41bab042d61952f81c6a6559d",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/tencent/TencentClient.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "814c0461206894509f417115b07397bceef2c2d4",
+      "message": "删除日志切面\n",
+      "timestamp": "2022-08-31T16:26:52+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/814c0461206894509f417115b07397bceef2c2d4",
+      "author": {
+        "name": "黑牛",
+        "email": "heiniu.com@gmail.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+
+      ],
+      "removed": [
+        "aomi-cd-core/common/src/main/java/mo/aomi/cd/core/common/aspect/RequestAspect.java"
+      ]
+    },
+    {
+      "id": "e91246f37aaec53c3e0d0b38e50bcb4d967fcdae",
+      "message": "添加打印 error 日志的 defaultUncaughtExceptionHandler\n",
+      "timestamp": "2022-08-31T16:44:41+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/e91246f37aaec53c3e0d0b38e50bcb4d967fcdae",
+      "author": {
+        "name": "黑牛",
+        "email": "heiniu.com@gmail.com"
+      },
+      "added": [
+        "aomi-cd-server/common-config/src/main/java/mo/aomi/cd/config/ThreadUncaughtConfiguration.java"
+      ],
+      "modified": [
+
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "d2e3d3e06f33c518d4849657d8fc1e51f7103fe8",
+      "message": "Merge remote-tracking branch 'origin/master' into hotfix/健康申报修改核酸校验时间\n",
+      "timestamp": "2022-08-31T16:50:03+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/d2e3d3e06f33c518d4849657d8fc1e51f7103fe8",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+        "aomi-cd-server/common-config/src/main/java/mo/aomi/cd/config/ThreadUncaughtConfiguration.java"
+      ],
+      "modified": [
+
+      ],
+      "removed": [
+        "aomi-cd-core/common/src/main/java/mo/aomi/cd/core/common/aspect/RequestAspect.java"
+      ]
+    },
+    {
+      "id": "e908e1a8f8b3ae4eefa82b9bd5b682f51225845a",
+      "message": "空判断\n",
+      "timestamp": "2022-08-31T16:54:49+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/e908e1a8f8b3ae4eefa82b9bd5b682f51225845a",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/tencent/TencentClient.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "0fcf2f38341958dad8e57a6ff9080ffd1eeb4f31",
+      "message": "同步包裹 kafka 消费出错打印 error 日志\n",
+      "timestamp": "2022-08-31T16:54:53+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/0fcf2f38341958dad8e57a6ff9080ffd1eeb4f31",
+      "author": {
+        "name": "黑牛",
+        "email": "heiniu.com@gmail.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/consumer/ParcelViewSyncConsumer.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "5bd55d4ec3a6313ddddde96e1e8284d1b207ad8a",
+      "message": "同步包裹 kafka 消费出错，不在上抛异常\n",
+      "timestamp": "2022-08-31T16:55:40+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/5bd55d4ec3a6313ddddde96e1e8284d1b207ad8a",
+      "author": {
+        "name": "黑牛",
+        "email": "heiniu.com@gmail.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/consumer/ParcelViewSyncConsumer.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "49cc6360287ac5800aa1db551d8b7820100462e9",
+      "message": "@Valid\n",
+      "timestamp": "2022-08-31T16:59:09+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/49cc6360287ac5800aa1db551d8b7820100462e9",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-api/deliveryman-api/src/main/java/mo/aomi/cd/api/HealthController.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "365e435a3f57da2caf2a7df563cf4f69ecae4f50",
+      "message": "空判断\n",
+      "timestamp": "2022-08-31T17:00:23+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/365e435a3f57da2caf2a7df563cf4f69ecae4f50",
+      "author": {
+        "name": "dongyin",
+        "email": "dongyin@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/tencent/TencentClient.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "00a8dc32c1c65622c55da038360eb58293d9bbff",
+      "message": "Merge branch 'hotfix/健康申报修改核酸校验时间' into 'master'\n\nHotfix/健康申报修改核酸校验时间\n\nSee merge request !403",
+      "timestamp": "2022-08-31T17:01:28+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/00a8dc32c1c65622c55da038360eb58293d9bbff",
+      "author": {
+        "name": "黑牛",
+        "email": "heiniu@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-api/deliveryman-api/src/main/java/mo/aomi/cd/api/HealthController.java",
+        "aomi-cd-core/common/src/main/resources/messages.properties",
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/exception/EmployeeHealthException.java",
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/service/impl/HealthServiceImpl.java",
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/tencent/TencentClient.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "aae0b3350f01bcddf48aa8246c9e778b225cd27c",
+      "message": "修改线上报错问题\n",
+      "timestamp": "2022-08-31T18:22:41+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/aae0b3350f01bcddf48aa8246c9e778b225cd27c",
+      "author": {
+        "name": "大牛",
+        "email": "daniu@xyz.com"
+      },
+      "added": [
+
+      ],
+      "modified": [
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/impl/ManualDispatcherServiceImpl.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/impl/TakeoutParcelServiceImpl.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/listener/ManualEventListener.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/listener/ParcelCoordinateListener.java"
+      ],
+      "removed": [
+
+      ]
+    },
+    {
+      "id": "ccd884f54610e65c3ba18b7179ec44df4efe818c",
+      "message": "Merge branch 'hotfix/修改同步订单视图表失败问题' into dev\n",
+      "timestamp": "2022-08-31T18:29:34+08:00",
+      "url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd/commit/ccd884f54610e65c3ba18b7179ec44df4efe818c",
+      "author": {
+        "name": "大牛",
+        "email": "daniu@xyz.com"
+      },
+      "added": [
+        "aomi-cd-server/common-config/src/main/java/mo/aomi/cd/config/ThreadUncaughtConfiguration.java"
+      ],
+      "modified": [
+        "aomi-cd-api/deliveryman-api/src/main/java/mo/aomi/cd/api/HealthController.java",
+        "aomi-cd-core/common/src/main/resources/messages.properties",
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/exception/EmployeeHealthException.java",
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/service/impl/HealthServiceImpl.java",
+        "aomi-cd-core/employee/src/main/java/mo/aomi/cd/core/employee/tencent/TencentClient.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/consumer/ParcelViewSyncConsumer.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/impl/ManualDispatcherServiceImpl.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/impl/TakeoutParcelServiceImpl.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/listener/ManualEventListener.java",
+        "aomi-cd-core/parcel/src/main/java/mo/aomi/cd/core/parcel/service/listener/ParcelCoordinateListener.java"
+      ],
+      "removed": [
+        "aomi-cd-core/common/src/main/java/mo/aomi/cd/core/common/aspect/RequestAspect.java"
+      ]
+    }
+  ],
+  "total_commits_count": 16,
+  "repository": {
+    "name": "aomi-cd",
+    "url": "git@gitlab.xxxxxxx.com:server/xyz/aomi-cd.git",
+    "description": "",
+    "homepage": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd",
+    "git_http_url": "http://gitlab.xxxxxxx.com/server/xyz/aomi-cd.git",
+    "git_ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/aomi-cd.git",
+    "visibility_level": 10
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "object_kind": "push",
+  "event_name": "push",
+  "before": "0000000000000000000000000000000000000000",
+  "after": "8f3f65b14ed4b32448c047006a8e2c5a0a79e741",
+  "ref": "refs/heads/tetete",
+  "checkout_sha": "8f3f65b14ed4b32448c047006a8e2c5a0a79e741",
+  "message": null,
+  "user_id": 68,
+  "user_name": "黑牛",
+  "user_username": "heiniu",
+  "user_email": "heiniu@xyz.com",
+  "user_avatar": "/uploads/-/system/user/avatar/68/avatar.png",
+  "project_id": 828,
+  "project": {
+    "name": "GitLabDingTalk",
+    "description": "",
+    "web_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+    "avatar_url": null,
+    "git_ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "git_http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git",
+    "namespace": "namespace",
+    "visibility_level": 10,
+    "path_with_namespace": "server/xyz/GitLabDingTalk",
+    "default_branch": "master",
+    "ci_config_path": null,
+    "homepage": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+    "url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git"
+  },
+  "commits": [
+
+  ],
+  "total_commits_count": 0,
+  "repository": {
+    "name": "GitLabDingTalk",
+    "url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "description": "",
+    "homepage": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk",
+    "git_http_url": "http://gitlab.xxxxxxx.com/server/xyz/GitLabDingTalk.git",
+    "git_ssh_url": "git@gitlab.xxxxxxx.com:server/xyz/GitLabDingTalk.git",
+    "visibility_level": 10
+  }
+}
