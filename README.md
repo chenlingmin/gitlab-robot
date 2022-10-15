@@ -42,8 +42,23 @@
 ![](./.img/config_gitlab.png)
 
 
-
 ## 预览功能
 
 ![](./.img/snapshot.png)
 
+## 快速了解
+
+**依赖技术**
+
+* [JsonPath](https://github.com/json-path/JsonPath) json 解析
+* [Thymeleaf](https://www.thymeleaf.org/) 模板引擎
+
+
+**系统上下文**
+
+![](https://www.plantuml.com/plantuml/svg/XPFFYXD14CRl_HJjd38WEvSzYIohMT632-8UF8REJ3apfASxTjV43I9aGK4F4lKWA8AYwv-3uir3LdsQP2Rx5dQdpJ1cCvkGGoLLtw-_hgeckngPmZpZv48gGfv7G2-tjuFsTgSj1R9KWDfPayhwKe307K9kWT9Ij28O09TzK1UfD_ircerVp4UFFP-GWw56o5fnYfnrJVBw8l1Cb23sBmM1oIHvTojBuvmXXCbMA3FFN-gYLCJ8UC_KdxvyQhvU5PL_ZikJHwQqSjgvAdCHCJNyTrn7oQv48wZ_z7pwW53pgMxH2Wr0ISv1EOCtMRTT_MKFr7rbVD1i47h-YdPfS9-ftfwyBmv0H0lEtjg4fIqbL4UzCxpGHXgSYnjIzlPrRCmCGE42UsxUqZ4PPi21tTsCle9t4ddj41KBKLhuXWgBLn33eK4_9EGsyFhSgn4Nu-VJoV7qv6Fv_YX8jSuXo435G1NSoq4ZBRylngXrOgSVs4NmVCTRGluRoVpBPxDGD366cdJr-aqjdF_-LZpxKFnyKXpzMErOCwkXP_Qsi_6hqz6RyjsdwMHIxz5PQutRulHkiOktazdhhuwriYoEs42fwCqyz-gq0UqQZNtsVm40)
+
+**交互时序**
+
+![](https://www.plantuml.com/plantuml/svg/uof8B2h9JCuiICmhKG03zyoIdCGa23knM24TpELApiyhAShFGLBX3179IIs2AqKJv-9A1j799PdvUSKWNJw9IHxv-Tc-nUb0HMMfHIL0lOcuP71eTYm9pyXthIWfIamkoKTenvG3MfyEyOgk7ORJh1IURUjurhYU2wWoioon91NJyUW2G6DmkDHAuSNUDSzw5q6DnAu8kojUx9_oTFOyYCQdRQrFr-t4RI-c5q7Uw9_mj7-QWeF2arsxk70emsitHElJZkal5gx0QdTmQbuAIFdJ_eal6ngXVWG9GgHJClFIIn9pij4Km8GnJNY-U_ApUNEW9c2w34CXkhIk7KG4JLbAAkwev080)
+  
